@@ -6,13 +6,10 @@
  * Time: 3:34 PM
  */
 
-if (isset($_POST['Submit'])){
-    $name = $_POST['name'];
-    $age = $_POST['age'];
-    if(!$name){
-        echo "<p> Please go back and submit your name </p>p>";
-    }
+if (isset($_POST['submit1'])){
+    //$name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+    //$age = filter_var($_POST['age'], FILTER_SANITIZE_NUMBER_INT);
+    echo "Button one has been pressed";
 }
-echo $name;
 
 ?>

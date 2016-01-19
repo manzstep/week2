@@ -7,7 +7,8 @@
     <?php include 'php/lab2.php';?>
 </head>
 <body>
-<form id="nav" action=lab2.php" method="get">
+<form action="lab2.php" method="get">
+    <ul id="nav">
 	<p> Enter your name </p>
 	<input type="text" name="name" size="25px">
 	<p> Now enter your age </p>
@@ -16,6 +17,7 @@
 	<input type="password" name="pass" size="25px">
 	<p> Choose your favourite animal from the list!</p>
 	<select name="animals">
+        <option> Select...</option>
 		<option> Dog</option>
 		<option> Cat</option>
 		<option> Mouse</option>
@@ -24,8 +26,9 @@
 	</select>
 	<p> Finally, check the box to confirm that you read our <a href="terms.html">terms of agreement</a> (Open in new tab to avoid loss of inputs</p>
 	<input type="checkbox" name="confirm">
-	<p>
-	<input name="Submit" type="button" value="Submit">
+    <p></p>
+	<input name="submit1" type="submit" value="Submit">
+    </ul>
 </form>
 </body>
 </html>
