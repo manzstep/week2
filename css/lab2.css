@@ -1,5 +1,4 @@
-charset "UTF-8"; 
-/* Stephen Manz's CSS Document.  
+/* Stephen Manz's CSS Document.
 Colors: 
 Dark Red: #8C2A1F 
 Black: #000 
@@ -32,7 +31,7 @@ body{
     color: #BCBCBC; 
 } 
 
-ul{
+form{
     text-align: center;
 }
 
